@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7923faf6-85d8-40b5-890d-edaa40160271" name="Changes" comment="Home page animation afgewerkt">
-      <change beforePath="$PROJECT_DIR$/Aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aboutme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
     </list>
@@ -87,7 +86,7 @@
       <workItem from="1765802335956" duration="1000" />
       <workItem from="1765802376774" duration="7000" />
       <workItem from="1767623348755" duration="2338000" />
-      <workItem from="1767706538601" duration="21739000" />
+      <workItem from="1767706538601" duration="34507000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -169,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768068415103</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Home page animation afgewerkt">
+      <option name="closed" value="true" />
+      <created>1768070433219</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1768070433219</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
