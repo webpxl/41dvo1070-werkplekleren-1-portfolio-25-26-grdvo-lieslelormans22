@@ -223,6 +223,12 @@ p {
 }
 
 /* RECENTE PROJECTEN */
+.Honorable-mentions{
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+}
 
 h1 {
     font-size: 2.8em;
@@ -478,6 +484,84 @@ p { margin: 20px 0 5px 0; color: #ccc; font-size: 14px; }
 .about-me-text .simple-button {
     margin-top: 20px;
 }
+
+/* SLIDERS */
+
+.slider {
+    position: relative;
+    max-width: 1000px;
+    aspect-ratio: 16 / 9;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.4s ease;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* FOTO */
+.slide img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    object-position: top;
+}
+
+/* INFO ONDER FOTO */
+.slide-info {
+    padding: 20px;
+    background: rgb(41, 41, 41);
+    text-align: center;
+}
+
+.slide-info h3 {
+    margin: 0;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 8px;
+    color: #b128ef;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.read-more:hover {
+    color: #fd64e4;
+    text-decoration: underline;
+}
+
+/* PIJLEN */
+.slider button {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    font-size: 2.5rem;
+    padding: 0 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev { left: 15px; }
+.next { right: 15px; }
+
 
 
 /* FOOTER */
