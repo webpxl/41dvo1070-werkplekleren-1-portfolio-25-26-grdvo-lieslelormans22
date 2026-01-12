@@ -144,7 +144,7 @@
     background: #b128ef;
 }
 #flip div:first-child div {
-    background: #00ffff;
+    background: #00eaff;
 }
 #flip div:last-child div {
     background: #fd64e4;
@@ -289,10 +289,7 @@ h1 {
     padding-bottom: 2rem;
 }
 
-.about-me-section h1 {
-    text-align: center;
-    margin-bottom: 40px;
-}
+
 
 .short-about-me {
     width: 250px;
@@ -342,10 +339,150 @@ h3 { margin: 0; font-size: 24px; font-weight: 500; }
 p { margin: 20px 0 5px 0; color: #ccc; font-size: 14px; }
 .brand { color: #ff00ff; font-weight: bold; }
 
+/* ABOUT ME - SECOND PAGE */
+
+.about-me-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Foto card */
+.photo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-content img {
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* TIMELINE */
+
+/* Basis timeline styling */
+.timeline {
+    position: relative;
+    margin-left: 120px; /* ruimte voor de jaren aan de linkerkant */
+}
+
+.timeline-item {
+    color: rgb(41, 41, 41);
+    position: relative;
+    margin-bottom: 40px;
+    cursor: pointer; /* geeft aan dat je kunt hoveren */
+}
+
+/* Jaar altijd zichtbaar aan de linkerkant */
+.timeline-item .year {
+    position: absolute;
+    left: -120px; /* staat links van de timeline */
+    width: 100px;
+    font-weight: bold;
+    text-align: right;
+    top: 0;
+}
+
+/* Lijn in het midden */
+.timeline-item .line {
+    background: rgb(177, 40, 239);
+    position: absolute;
+    left: 0;
+    width: 2px;
+    top: 0;
+    bottom: 0;
+}
+
+/* Content standaard verborgen */
+.timeline-content {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all 0.3s ease;
+    max-width: 400px;
+    padding: 30px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Content zichtbaar bij hover */
+.timeline-item:hover .timeline-content {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about-me-section {
+    background-color: rgb(41, 41, 41); /* zelfde kleur als header */
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-me-section {
+    background-color: rgb(41, 41, 41); /* blend met header */
+    color: #fff;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1000px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.about-me-photo img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px; /* subtiel afgerond */
+}
+
+.about-me-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-me-text h3 {
+    font-size: 2rem;
+    color: #b128ef; /* paars accent */
+    margin-bottom: 20px;
+}
+
+.about-me-text h4 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.about-me-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.about-me-text .simple-button {
+    margin-top: 20px;
+}
+
+
 /* FOOTER */
 
 .footer {
-    width: 100%;
     padding: 3rem;
     text-align: center;
     background-color: #f8fafc;
