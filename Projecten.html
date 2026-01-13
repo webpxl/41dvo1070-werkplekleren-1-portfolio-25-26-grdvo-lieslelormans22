@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Liesle Lormans</title>
     <link rel="stylesheet" href="./Home.css">
-    <script src="home.js"></script>
+
 
 </head>
 <body>
@@ -32,38 +32,39 @@
 <main>
     <section class="portfolio">
         <h1 class="Honorable-mentions">Honorable mentions</h1>
-        <div class="slider">
-            <button class="prev">‹</button>
+        <div class="slideshow-container">
 
-            <div class="slider-track">
-                <div class="slide">
-                    <img src="foto's/surfer.png" alt="Project 1">
-                    <div class="slide-info">
-                        <h3>Photoshop: masking</h3>
-                        <a href="#surfer" class="read-more">Lees meer</a>
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <img src="foto's/dashboard.png" alt="Project 2">
-                    <div class="slide-info">
-                        <h3>WPL1: Dashboard</h3>
-                        <a href="#dashboard" class="read-more">Lees meer</a>
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <img src="foto's/bear.png" alt="Project 3">
-                    <div class="slide-info">
-                        <h3>Photoshop: bear</h3>
-                        <a href="#bear" class="read-more">Lees meer</a>
-                    </div>
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="foto's/bear.png" alt="">
+                <div class="text">
+                    <a href="#bear">Photoshop: masks</a>
                 </div>
             </div>
 
-            <button class="next">›</button>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="foto's/dashboard.png" alt="Snow artwork">
+                <div class="text">
+                    <a href="#dashboard">WPL1: dashboard</a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="foto's/surfer.png" alt="Mountain artwork">
+                <div class="text">
+                    <a href="#surfer">Photoshop: masks</a>
+                </div>
+            </div>
+
         </div>
 
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
     </section>
 
     <section>
@@ -227,6 +228,7 @@
 <!-- FOOTER -->
 
 <footer class="footer">
+    <script src="art-slider.js"></script>
     <p>&copy; 2026 Liesle Lormans</p>
     <a href="">Privacy</a>
 </footer>
