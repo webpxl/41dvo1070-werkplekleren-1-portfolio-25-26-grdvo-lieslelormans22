@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7923faf6-85d8-40b5-890d-edaa40160271" name="Changes" comment="about me page afgewerkt">
-      <change afterPath="$PROJECT_DIR$/home.js" afterDir="false" />
+    <list default="true" id="7923faf6-85d8-40b5-890d-edaa40160271" name="Changes" comment="Projecten page gestart">
       <change beforePath="$PROJECT_DIR$/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projecten.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projecten.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
       <workItem from="1765802335956" duration="1000" />
       <workItem from="1765802376774" duration="7000" />
       <workItem from="1767623348755" duration="2338000" />
-      <workItem from="1767706538601" duration="52719000" />
+      <workItem from="1767706538601" duration="58058000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -218,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768239125001</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Projecten page gestart">
+      <option name="closed" value="true" />
+      <created>1768248945665</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1768248945665</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +241,8 @@
     <MESSAGE value="Home page animation afgewerkt" />
     <MESSAGE value="Home page afgewerkt" />
     <MESSAGE value="about me page afgewerkt" />
-    <option name="LAST_COMMIT_MESSAGE" value="about me page afgewerkt" />
+    <MESSAGE value="Projecten page gestart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projecten page gestart" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
