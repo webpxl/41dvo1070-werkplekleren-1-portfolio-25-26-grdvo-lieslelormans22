@@ -743,6 +743,7 @@ p { margin: 20px 0 5px 0; color: #ccc; font-size: 14px; }
 }
 
 .rig-subtitle {
+    text-align: center;
     font-size: 1rem;
     color: #666;
 }
@@ -850,4 +851,121 @@ p { margin: 20px 0 5px 0; color: #ccc; font-size: 14px; }
         width: 100%;
         text-align: center;
     }
+}
+
+/* OLR Tabel */
+.olr-section {
+    padding: 50px 20px;
+    color: white;
+    text-align: left;
+}
+
+.olr-section h1 {
+    color: #b128ef;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.olr-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.olr-table th,
+.olr-table td {
+    padding: 12px;
+    border: 1px solid #fff;
+}
+
+.olr-table th {
+    background-color: #b128ef;
+    color: white;
+}
+
+.rol-cv { background-color: rgba(177,40,239,0.1); }
+.rol-fe { background-color: rgba(0,128,255,0.1); }
+.rol-com { background-color: rgba(0,255,128,0.1); }
+.rol-ll { background-color: rgba(255,128,0,0.1); }
+
+/* Afwisselende rijen voor leesbaarheid */
+.olr-table tbody tr:nth-child(even) {
+    opacity: 0.8;
+}
+
+/* Responsive tabel */
+@media screen and (max-width: 800px) {
+    .olr-table, .olr-table thead, .olr-table tbody, .olr-table th, .olr-table td, .olr-table tr {
+        display: block;
+    }
+    .olr-table thead tr {
+        display: none;
+    }
+    .olr-table td {
+        border: none;
+        padding: 10px 0;
+        position: relative;
+    }
+    .olr-table td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+/* Reflectie pagina */
+.reflection-block {
+    background-color: rgba(41,41,41,0.9);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    color: white;
+    max-width: 900px;
+}
+
+.reflection-block h2 {
+    color: #b128ef;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.reflection-block p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.reflection-block ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.reflection-block li {
+    margin-bottom: 10px;
+}
+
+/* Kernkwadrant tabel */
+.reflection-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.reflection-table th,
+.reflection-table td {
+    padding: 12px;
+    border: 1px solid #fff;
+}
+
+.reflection-table th {
+    background-color: #b128ef;
+    color: white;
+}
+
+.reflection-table td {
+    background-color: rgba(41,41,41,0.8);
+    color: #ccc;
 }
