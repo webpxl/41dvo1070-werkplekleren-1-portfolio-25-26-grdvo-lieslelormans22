@@ -406,7 +406,7 @@ p { margin: 20px 0 5px 0; color: #ccc; font-size: 14px; }
 
 /* Content standaard verborgen */
 .timeline-content {
-    opacity: 0;
+
     transform: translateX(20px);
     transition: all 0.3s ease;
     max-width: 400px;
@@ -416,11 +416,6 @@ p { margin: 20px 0 5px 0; color: #ccc; font-size: 14px; }
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Content zichtbaar bij hover */
-.timeline-item:hover .timeline-content {
-    opacity: 1;
-    transform: translateX(0);
-}
 
 .short-about-me-section {
     color: #fff;
@@ -827,4 +822,32 @@ p { margin: 20px 0 5px 0; color: #ccc; font-size: 14px; }
 .circl:hover {
     transform: scale(1.15);
     box-shadow: 0 0 12px rgba(255, 0, 255, 0.6);
+}
+
+/* phone */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .Contact {
+        width: 100%;
+        text-align: center;
+    }
 }
